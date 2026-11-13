@@ -111,6 +111,67 @@ les personnes de votre répertoire qui utilisent déjà l'Agenda.</p>
   avec votre compte.</li>
 </ul>
 
+<h3>2.2 quater — Les fonctions de votre téléphone (chacune avec votre accord)</h3>
+<p>Certaines fonctions utilisent votre micro, vos photos ou les réglages de votre téléphone.
+Chacune est <strong>désactivée tant que vous ne l'avez pas choisie</strong>, demande
+l'autorisation du téléphone au moment où elle sert, et peut être retirée à tout moment
+(dans « Mon Rythme » ou dans les réglages du téléphone).</p>
+<ul>
+  <li><strong>Le micro (dictée et notes vocales)</strong> : quand vous touchez le micro, votre
+  voix est transformée en texte par le service de reconnaissance vocale de votre téléphone,
+  puis seul le texte est utilisé. Une note vocale envoyée dans Mes liens est chiffrée de bout
+  en bout : seules les personnes du cercle peuvent l'écouter.</li>
+  <li><strong>Les mains libres (le réveil par le prénom de votre accompagnatrice)</strong> :
+  l'écoute du prénom se fait <strong>entièrement sur votre téléphone</strong>, avec un modèle
+  installé sur l'appareil. Aucun son n'est enregistré ni envoyé tant que le prénom n'a pas été
+  entendu ; ensuite, seule votre demande, transformée en texte, part vers l'accompagnatrice.
+  Une notification reste visible tant que l'écoute est active, et un bouton « Pause » l'arrête.
+  Les demandes faites en mains libres ne sont pas enregistrées dans votre conversation.</li>
+  <li><strong>Les photos et l'appareil photo</strong> : seules les images que vous choisissez
+  sont utilisées, pour votre tableau de vision (rangées dans votre espace privé) ou pour un
+  message de Mes liens (chiffrées de bout en bout).</li>
+  <li><strong>Les images créées pour votre tableau de vision</strong> : si vous demandez une
+  image, la description que vous avez écrite est d'abord reformulée par notre prestataire de
+  langage (Anthropic), puis transmise au service d'images de Google (voir section 5). Ni votre
+  nom ni vos autres données ne l'accompagnent. Si vous cherchez des
+  images libres de droits, seuls les mots de votre recherche sont envoyés au service public
+  Openverse.</li>
+  <li><strong>L'écran d'accueil (si vous choisissez l'Agenda comme écran d'accueil)</strong> :
+  l'application lit, <strong>sur votre téléphone uniquement</strong>, la liste des applications
+  installées et leur catégorie, pour les ranger dans vos domaines de vie. Si vous l'autorisez,
+  elle lit aussi le temps passé dans chaque application sur les 4 dernières semaines, pour
+  mettre en premier celles que vous utilisez le plus. Si vous activez le tri des rappels, les
+  notifications des autres applications sont triées sur votre téléphone : leur contenu n'est
+  jamais lu par nous ni envoyé à nos serveurs. Seules vos places (quelle application dans quel
+  domaine) sont enregistrées. Si vous ajoutez l'écran d'une autre application (son widget), il
+  est dessiné par cette application elle-même : l'Agenda ne lit ni ne transmet son contenu.</li>
+  <li><strong>Vos contacts</strong> : voir 2.2 ter. L'accompagnatrice peut aussi retrouver une
+  personne dans votre répertoire pour lui écrire ou l'appeler ; cette recherche se fait sur
+  votre téléphone, et seul le prénom que vous avez dit lui est transmis.</li>
+</ul>
+
+<h3 id="sante">2.2 quinquies — Vos données de santé (Health Connect sur Android, Santé sur iPhone)</h3>
+<p>Si vous branchez une application de santé à l'un de vos objectifs, et seulement si vous
+l'acceptez, l'Agenda Prophétique lit dans Health Connect (Android) ou dans Santé (iPhone),
+<strong>en lecture seule</strong>, les seuls chiffres que vous avez cochés : vos pas, votre
+poids, les calories de vos repas, la durée de votre sommeil.</p>
+<ul>
+  <li><strong>Pourquoi</strong> : vous montrer où vous en êtes de vos objectifs et vous proposer
+  un geste simple, par exemple garder une marche déjà prévue dans votre agenda ;</li>
+  <li><strong>Où</strong> : sur votre téléphone uniquement, quand l'écran « Mes applis
+  branchées » ou la fiche Santé est ouvert. Rien n'est lu en arrière-plan, et rien au-delà des
+  30 derniers jours ;</li>
+  <li><strong>Stockage</strong> : vos chiffres de santé ne sont <strong>jamais</strong>
+  enregistrés sur nos serveurs. Nous gardons seulement la liste des applications branchées,
+  l'objectif auquel vous les avez reliées, les cases cochées et la date de votre accord ;</li>
+  <li><strong>Partage</strong> : aucun. Ni sous-traitant, ni publicité, ni intelligence
+  artificielle, ni revente ;</li>
+  <li><strong>Écriture</strong> : l'Agenda n'écrit rien dans Health Connect ni dans Santé ;</li>
+  <li><strong>Retrait</strong> : à tout moment, avec « Débrancher » dans l'application, ou dans
+  Health Connect › Autorisations des applis (Android), ou dans Réglages › Santé › Accès aux
+  données (iPhone). Vos objectifs et votre agenda restent.</li>
+</ul>
+
 <h3>2.3 Données techniques</h3>
 <ul>
   <li>Données de performance de l'application (temps de chargement, erreurs), afin d'en améliorer le fonctionnement</li>
@@ -163,6 +224,11 @@ un nombre restreint de prestataires techniques, agissant sur nos instructions :<
     <td>Anthropic PBC (États-Unis)</td>
     <td>Traitement automatique du langage : les réponses de votre accompagnatrice, votre mot du matin, votre bénédiction d'anniversaire, et les corrections que vous lui demandez</td>
     <td>Le contenu de votre question, et les éléments nécessaires pour y répondre justement : votre prénom, votre saison, votre mission, vos objectifs, votre semaine en cours. Rien n'est envoyé sans une action de votre part, et vos données ne servent jamais à entraîner un modèle</td>
+  </tr>
+  <tr>
+    <td>Google Ireland Ltd (service d'images Imagen)</td>
+    <td>Création d'une image pour votre tableau de vision, seulement quand vous la demandez</td>
+    <td>La description que vous avez écrite pour l'image, sans votre nom ni vos autres données. Les images créées sont rangées dans votre espace privé</td>
   </tr>
   <tr>
     <td>RevenueCat Inc. (États-Unis)</td>
